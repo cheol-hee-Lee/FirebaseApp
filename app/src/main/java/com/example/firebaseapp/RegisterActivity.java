@@ -16,7 +16,8 @@ public class RegisterActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Create Account");
 
-
+//      back button 활성화
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
     }
 }
