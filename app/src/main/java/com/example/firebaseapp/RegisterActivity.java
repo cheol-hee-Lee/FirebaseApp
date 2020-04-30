@@ -18,6 +18,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 //      back button 활성화
         actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
 
     }
 }
